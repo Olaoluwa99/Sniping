@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fullContainer"
+     android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp">
+
+    <TextView
+        android:id="@+id/snapShotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="36dp"
+        android:text="Select an area to screenshot"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/closeOverlay"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/snapShotText"
+        app:layout_constraintEnd_toEndOf="@+id/snapShotText"
+        app:layout_constraintStart_toStartOf="@+id/snapShotText"
+        tools:srcCompat="@drawable/ic_baseline_close_24" />
+
+    <Button
+        android:id="@+id/snapshotButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Capture"
+        app:layout_constraintEnd_toEndOf="@+id/snapShotText"
+        app:layout_constraintStart_toStartOf="@+id/snapShotText"
+        app:layout_constraintTop_toBottomOf="@+id/snapShotText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
