@@ -2,7 +2,7 @@
 Custom screen sniping tool
 ## Floating Snipe Button for Android
 
-![Library Logo](url_to_logo.png)
+![Library Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQhYVhuvprIQljGmoyjgZWBoHILO2IDm2YpQ&usqp=CAU)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/release/your-username/your-library.svg)](https://github.com/your-username/your-library/releases)
